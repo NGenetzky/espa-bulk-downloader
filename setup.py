@@ -20,6 +20,8 @@ setup(
     packages=["espa_bulk_downloader"],
 
     # Scripts
+    # Moves the script to the user's bin directory so that it can be executed.
+    # Usage is 'download_espa_order.py' not 'python download_espa_order.py'
     scripts=["espa_bulk_downloader/download_espa_order.py"],
 
     # Dependent packages (distributions)

@@ -8,16 +8,16 @@ Automatically downloads all completed espa scenes.  Each scene is downloaded to 
 ```
 git clone https://github.com/USGS-EROS/espa-bulk-downloader.git bulk-downloader
 cd bulk-downloader
-python ./download_espa_order/download_espa_order.py -h
+python ./espa-bulk-downloader/download_espa_order.py -h
 ```
 * Install with pip automatically:
 ```
-pip install git+https://github.com/ngenetzky/espa-bulk-downloader.git@dev_pull_1
+pip install git+https://github.com/USGS-EROS/espa-bulk-downloader.git
 download_espa_order.py -h
 ```
 * Install with setup.py manually:
 ```
-git clone -b dev_pull_1 https://github.com/ngenetzky/espa-bulk-downloader.git bulk-downloader
+git clone -b dev_pull_1 https://github.com/USGS-EROS/espa-bulk-downloader.git bulk-downloader
 cd bulk-downloader
 python setup.py install
 download_espa_order.py -h
