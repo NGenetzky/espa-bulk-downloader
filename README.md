@@ -1,7 +1,7 @@
 Automatically downloads all completed espa scenes.  Each scene is downloaded to the `--target_directory` and organized by order.
 
 # Installation
-* Note: Thses were tested with python 2.7.
+* Note: These were tested with python 2.7.
 
 
 * Clone this repository:
