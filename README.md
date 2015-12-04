@@ -17,7 +17,7 @@ download_espa_order.py -h
 ```
 * Install with setup.py manually:
 ```
-git clone -b dev_pull_1 https://github.com/USGS-EROS/espa-bulk-downloader.git bulk-downloader
+git clone https://github.com/USGS-EROS/espa-bulk-downloader.git bulk-downloader
 cd bulk-downloader
 python setup.py install
 download_espa_order.py -h
